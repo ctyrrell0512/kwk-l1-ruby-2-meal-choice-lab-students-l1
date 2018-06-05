@@ -11,10 +11,17 @@ def breakfas(food="waffles")
  puts "A great food to have for breakfast is #{food}."
 end
 
-def lunch(food ="peanut butter and jelly")
-  puts "Try #{food} for "
+def lunch(food ="peanut butter")
+  puts "Try #{food} for lunch!"
+end
   
+  def dinner(food ="chicken")
+    puts "Dinner is a great time to eat #{food}!"
+  end
   
 breakfast
 breakfast("pancakes")
-
+lunch
+lunch("salad")
+dinner
+dinner("steak")
